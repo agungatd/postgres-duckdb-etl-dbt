@@ -1,0 +1,50 @@
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'simple_ecommerce_dw'
+version: '1.0.0'
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'simple_ecommerce_dw'
+
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Define your source database
+sources:
+  postgres_source:
+    database: dbt_Ecom 
+    schema: public
+    tables:
+      - name: orders
+      - name: order_items
+      - name: customers
+      - name: products
+      - name: addresses
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# In this example config, we tell dbt to build all models in the example/
+# directory as views. These settings can be overridden in the individual model
+# files using the `{{ config(...) }}` macro.
+models:
+  simple_ecommerce_dw:
+    # Config indicated by + and applies to all files under models/example/
+    staging:
+      +materialized: view # Views for staging are generally best practice
+    marts:
+      +materialized: table # Materialize marts as tables for performance

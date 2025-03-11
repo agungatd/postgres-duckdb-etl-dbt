@@ -1,0 +1,25 @@
+dbt-ecommerce-data-warehouse/
+├── README.md             <- Project documentation (we'll fill this in below)
+├── dbt_project.yml      <- Main dbt project configuration
+├── models/
+│   ├── staging/
+│   │   ├── stg_customers.sql
+│   │   ├── stg_orders.sql
+│   │   ├── stg_order_items.sql
+│   │   ├── stg_products.sql
+│   │   └── schema.yml       <- Tests and documentation for staging models
+│   └── marts/
+│       ├── dim_customers.sql
+│       ├── dim_date.sql
+│       ├── dim_products.sql
+│       ├── fact_orders.sql
+│       └── schema.yml       <- Tests and documentation for mart models
+├── tests/
+│   └── generic/
+│       └── test_line_item_calculation.sql  <- Custom, reusable data tests
+├── macros/
+│   └── date_spine.sql    <- Macro for generating the date dimension
+├── seeds/              <- (Optional - Add if you need seed data)
+├── analysis/           <- (Optional - For ad-hoc queries/analysis)
+├── target/             <- (Automatically generated - compiled SQL files)
+└── dbt_packages/        <- (Automatically generated - installed dependencies)
