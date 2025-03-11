@@ -1,0 +1,199 @@
+[0m13:38:50.062185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f96d798a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f9657f190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f9657c5e0>]}
+
+
+============================== 13:38:50.068758 | b69d1bc3-d256-40da-a689-a43c0d80abbc ==============================
+[0m13:38:50.068758 [info ] [MainThread]: Running with dbt=1.9.3
+[0m13:38:50.071186 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt ', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:38:50.461067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b69d1bc3-d256-40da-a689-a43c0d80abbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f9657f190>]}
+[0m13:38:50.507358 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:38:50.508519 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:38:50.511746 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.6063085, "process_in_blocks": "192", "process_kernel_time": 1.750973, "process_mem_max_rss": "90764", "process_out_blocks": "8", "process_user_time": 1.700367}
+[0m13:38:50.512445 [debug] [MainThread]: Command `cli deps` succeeded at 13:38:50.512326 after 0.61 seconds
+[0m13:38:50.513092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f96d798a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f9657f190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8f9657e110>]}
+[0m13:38:50.513498 [debug] [MainThread]: Flushing usage events
+[0m13:38:52.480749 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:39:06.929599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1fd21840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1ee6d510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1ee6f010>]}
+
+
+============================== 13:39:07.100378 | 7a7ec1f3-4ac0-4cde-af17-31b150901800 ==============================
+[0m13:39:07.100378 [info ] [MainThread]: Running with dbt=1.9.3
+[0m13:39:07.101621 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt ', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:39:08.912182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7a7ec1f3-4ac0-4cde-af17-31b150901800', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1ee6d420>]}
+[0m13:39:08.926675 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:39:08.928600 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:39:08.938761 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 3.8641434, "process_in_blocks": "0", "process_kernel_time": 2.548175, "process_mem_max_rss": "90828", "process_out_blocks": "8", "process_user_time": 2.909334}
+[0m13:39:08.986352 [debug] [MainThread]: Command `cli deps` succeeded at 13:39:08.986002 after 3.91 seconds
+[0m13:39:08.987264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1fd21840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1ee6d420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a1ecba5f0>]}
+[0m13:39:08.988078 [debug] [MainThread]: Flushing usage events
+[0m13:39:11.295867 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:32:19.710185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48fe815780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48fd993e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48fd991c30>]}
+
+
+============================== 14:32:19.713009 | 7da862bd-989f-459b-8ceb-bd79246f24cf ==============================
+[0m14:32:19.713009 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:32:19.713530 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'profiles_dir': '/home/agung_msbu/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt test', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:32:20.080592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7da862bd-989f-459b-8ceb-bd79246f24cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48f997eb30>]}
+[0m14:32:20.147376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7da862bd-989f-459b-8ceb-bd79246f24cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48fd88b340>]}
+[0m14:32:20.152304 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m14:32:20.209262 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:32:20.310807 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 13 files added, 0 files changed.
+[0m14:32:20.311540 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://tests/generic/test_line_item_calculation.sql
+[0m14:32:20.311953 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/staging/stg_addresses.sql
+[0m14:32:20.312305 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/marts/dim_customers.sql
+[0m14:32:20.312633 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/staging/stg_orders.sql
+[0m14:32:20.312964 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/marts/fact_orders.sql
+[0m14:32:20.313283 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/marts/dim_products.sql
+[0m14:32:20.313597 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/marts/dim_date.sql
+[0m14:32:20.313917 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/staging/stg_products.sql
+[0m14:32:20.314241 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://macros/date_spine.sql
+[0m14:32:20.314668 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/marts/schema.yml
+[0m14:32:20.314977 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/staging/stg_order_items.sql
+[0m14:32:20.315396 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/staging/schema.yml
+[0m14:32:20.315692 [debug] [MainThread]: Partial parsing: added file: simple_ecommerce_dw://models/staging/stg_customers.sql
+[0m14:32:20.546636 [error] [MainThread]: Encountered an error:
+Compilation Error in model dim_date (models/marts/dim_date.sql)
+  'dbt_utils' is undefined
+[0m14:32:20.547542 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.8890603, "process_in_blocks": "5048", "process_kernel_time": 0.050729, "process_mem_max_rss": "121756", "process_out_blocks": "16", "process_user_time": 1.856705}
+[0m14:32:20.548125 [debug] [MainThread]: Command `dbt test` failed at 14:32:20.548011 after 0.89 seconds
+[0m14:32:20.548461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48fe815780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48f95a38e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f48f93aff40>]}
+[0m14:32:20.548840 [debug] [MainThread]: Flushing usage events
+[0m14:32:22.340501 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:33:58.671431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b5f116c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b5251420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b5251cc0>]}
+
+
+============================== 14:33:58.673342 | 717b71ce-40f5-4cc6-90c0-00c3cbc8c2f1 ==============================
+[0m14:33:58.673342 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:33:58.673866 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:33:58.789281 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '717b71ce-40f5-4cc6-90c0-00c3cbc8c2f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b5fbaec0>]}
+[0m14:33:58.823334 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:33:58.826071 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:33:58.827775 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.21458344, "process_in_blocks": "616", "process_kernel_time": 0.019934, "process_mem_max_rss": "90768", "process_out_blocks": "8", "process_user_time": 1.206008}
+[0m14:33:58.828549 [debug] [MainThread]: Command `dbt deps` succeeded at 14:33:58.828417 after 0.22 seconds
+[0m14:33:58.829033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b5f116c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b5fbaec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc8b4fe3a00>]}
+[0m14:33:58.829594 [debug] [MainThread]: Flushing usage events
+[0m14:33:59.799477 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:39:45.483519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85fa0a9690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85f9217730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85f9216d70>]}
+
+
+============================== 14:39:45.485501 | 6e357508-f1f6-4748-8ba2-5b840016d58f ==============================
+[0m14:39:45.485501 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:39:45.485979 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'debug': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:39:45.654417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6e357508-f1f6-4748-8ba2-5b840016d58f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85fb37bd90>]}
+[0m14:39:45.664349 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-lxck3rh_'
+[0m14:39:45.664956 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m14:39:45.827843 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m14:39:45.830127 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m14:39:46.153186 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m14:39:46.165578 [info ] [MainThread]: Updating lock file in file path: /home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/package-lock.yml
+[0m14:39:46.168638 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-ijbj4opb'
+[0m14:39:46.171394 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m14:39:46.825750 [info ] [MainThread]: Installed from version 1.3.0
+[0m14:39:46.826560 [info ] [MainThread]: Up to date!
+[0m14:39:46.827245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '6e357508-f1f6-4748-8ba2-5b840016d58f', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85f9f62980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85f8ea5030>]}
+[0m14:39:46.829045 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 1.4021825, "process_in_blocks": "576", "process_kernel_time": 0.142121, "process_mem_max_rss": "93620", "process_out_blocks": "2304", "process_user_time": 1.340006}
+[0m14:39:46.829637 [debug] [MainThread]: Command `dbt deps` succeeded at 14:39:46.829526 after 1.40 seconds
+[0m14:39:46.830023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85fa0a9690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85f9f62980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85f8ffbe80>]}
+[0m14:39:46.830504 [debug] [MainThread]: Flushing usage events
+[0m14:39:47.843286 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:39:55.130264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef112a1750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef1243e5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef1243dc30>]}
+
+
+============================== 14:39:55.132838 | d14aa039-a54e-4a39-98fc-5fe15f0b078b ==============================
+[0m14:39:55.132838 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:39:55.133368 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt test', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:39:55.341161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd14aa039-a54e-4a39-98fc-5fe15f0b078b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef0ced2c80>]}
+[0m14:39:55.415686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd14aa039-a54e-4a39-98fc-5fe15f0b078b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef106012a0>]}
+[0m14:39:55.418868 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m14:39:55.490117 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:39:55.575890 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m14:39:55.576443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd14aa039-a54e-4a39-98fc-5fe15f0b078b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef10c7d4b0>]}
+[0m14:39:57.126550 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Invalid generic test configuration given in models/marts/schema.yml: 
+  Test arguments include "model", which is a reserved argument
+  	@: UnparsedModelUpdate(original_file_path='mode...ne)
+[0m14:39:57.127646 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 2.0577476, "process_in_blocks": "8", "process_kernel_time": 0.110071, "process_mem_max_rss": "125528", "process_out_blocks": "0", "process_user_time": 3.082004}
+[0m14:39:57.128255 [debug] [MainThread]: Command `dbt test` failed at 14:39:57.128149 after 2.06 seconds
+[0m14:39:57.128651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef112a1750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef0c1b6080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef0c347e50>]}
+[0m14:39:57.129513 [debug] [MainThread]: Flushing usage events
+[0m14:39:58.156279 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:41:18.893608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf73f31750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf74efa5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf74ef9c30>]}
+
+
+============================== 14:41:18.895434 | cc6cf6cf-9ac8-440e-b27d-173acab15a54 ==============================
+[0m14:41:18.895434 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:41:18.895961 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m14:41:19.127637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cc6cf6cf-9ac8-440e-b27d-173acab15a54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf6f17ac80>]}
+[0m14:41:19.200211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cc6cf6cf-9ac8-440e-b27d-173acab15a54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf72ec5240>]}
+[0m14:41:19.204220 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m14:41:19.259073 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:41:19.338231 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m14:41:19.339127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cc6cf6cf-9ac8-440e-b27d-173acab15a54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf7372d4b0>]}
+[0m14:41:20.691344 [error] [MainThread]: Encountered an error:
+Compilation Error in test line_item_calculation_fact_orders_line_item_total__line_item_total__ref_fact_orders_ (models/marts/schema.yml)
+  macro 'dbt_macro__test_line_item_calculation' takes no keyword argument 'column_name'
+[0m14:41:20.692433 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 1.8573226, "process_in_blocks": "0", "process_kernel_time": 0.029967, "process_mem_max_rss": "129696", "process_out_blocks": "8", "process_user_time": 2.816913}
+[0m14:41:20.693034 [debug] [MainThread]: Command `dbt test` failed at 14:41:20.692940 after 1.86 seconds
+[0m14:41:20.693415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf73f31750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf6ec101f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf6db42a10>]}
+[0m14:41:20.693894 [debug] [MainThread]: Flushing usage events
+[0m14:41:21.915287 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:42:27.014496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00e7b5720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00d928d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00d9291e0>]}
+
+
+============================== 14:42:27.016524 | 84f3f319-1116-4f62-ba49-37258ac6469c ==============================
+[0m14:42:27.016524 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:42:27.017124 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt test', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:42:27.222320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '84f3f319-1116-4f62-ba49-37258ac6469c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00fa85ed0>]}
+[0m14:42:27.290987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '84f3f319-1116-4f62-ba49-37258ac6469c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00d8236d0>]}
+[0m14:42:27.294298 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m14:42:27.347135 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:42:27.458434 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m14:42:27.459000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '84f3f319-1116-4f62-ba49-37258ac6469c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00d799c60>]}
+[0m14:42:28.790477 [error] [MainThread]: Encountered an error:
+Compilation Error in test line_item_calculation_fact_orders_line_item_total__line_item_total__ref_fact_orders_ (models/marts/schema.yml)
+  macro 'dbt_macro__test_line_item_calculation' takes no keyword argument 'column_name'
+[0m14:42:28.791422 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 1.8374424, "process_in_blocks": "0", "process_kernel_time": 0.039917, "process_mem_max_rss": "127144", "process_out_blocks": "8", "process_user_time": 2.834125}
+[0m14:42:28.791995 [debug] [MainThread]: Command `dbt test` failed at 14:42:28.791886 after 1.84 seconds
+[0m14:42:28.792343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe00e7b5720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe008342950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe008340f10>]}
+[0m14:42:28.792890 [debug] [MainThread]: Flushing usage events
+[0m14:42:29.860801 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:44:21.530866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff90f919630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff9108e1330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff9108e3f70>]}
+
+
+============================== 14:44:21.532909 | f7aaeaa3-9008-46be-993b-d85fb6229ddb ==============================
+[0m14:44:21.532909 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:44:21.533467 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'version_check': 'True', 'profiles_dir': '/home/agung_msbu/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:44:21.730805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f7aaeaa3-9008-46be-993b-d85fb6229ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff910bcb670>]}
+[0m14:44:21.799272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f7aaeaa3-9008-46be-993b-d85fb6229ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff90e8b8d00>]}
+[0m14:44:21.801825 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m14:44:21.854424 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:44:21.941871 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m14:44:21.942402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f7aaeaa3-9008-46be-993b-d85fb6229ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff90e901930>]}
+[0m14:44:23.322388 [error] [MainThread]: Encountered an error:
+Compilation Error in test line_item_calculation_fact_orders_line_item_total__ref_fact_orders_ (models/marts/schema.yml)
+  macro 'dbt_macro__test_line_item_calculation' takes no keyword argument 'model'
+[0m14:44:23.323500 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 1.8640943, "process_in_blocks": "0", "process_kernel_time": 0.050039, "process_mem_max_rss": "127416", "process_out_blocks": "16", "process_user_time": 2.872291}
+[0m14:44:23.324094 [debug] [MainThread]: Command `dbt test` failed at 14:44:23.323979 after 1.86 seconds
+[0m14:44:23.324479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff90f919630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff90947bd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff909478220>]}
+[0m14:44:23.325310 [debug] [MainThread]: Flushing usage events
+[0m14:44:24.882884 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:11:09.486727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d92471750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d936365c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d93635c30>]}
+
+
+============================== 15:11:09.491873 | 66064ebf-ec18-45aa-93c6-ec5456b381c2 ==============================
+[0m15:11:09.491873 [info ] [MainThread]: Running with dbt=1.9.3
+[0m15:11:09.492750 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/agung_msbu/personal/projects/postgres-duckdb-etl-dbt/simple_ecommerce_dw/logs', 'fail_fast': 'False', 'profiles_dir': '/home/agung_msbu/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:11:09.814508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '66064ebf-ec18-45aa-93c6-ec5456b381c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d8e0c2c80>]}
+[0m15:11:09.878622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '66064ebf-ec18-45aa-93c6-ec5456b381c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d91601240>]}
+[0m15:11:09.882213 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m15:11:09.954166 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m15:11:10.040260 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m15:11:10.040732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '66064ebf-ec18-45aa-93c6-ec5456b381c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d91c6d4b0>]}
+[0m15:11:11.423644 [error] [MainThread]: Encountered an error:
+Compilation Error in test line_item_calculation_fact_orders_line_item_total__ref_fact_orders_ (models/marts/schema.yml)
+  macro 'dbt_macro__test_line_item_calculation' takes no keyword argument 'model'
+[0m15:11:11.426486 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 2.0004513, "process_in_blocks": "46368", "process_kernel_time": 0.100293, "process_mem_max_rss": "127516", "process_out_blocks": "16", "process_user_time": 2.798194}
+[0m15:11:11.426951 [debug] [MainThread]: Command `dbt test` failed at 15:11:11.426867 after 2.00 seconds
+[0m15:11:11.427270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d92471750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d8d3301f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d8c262a10>]}
+[0m15:11:11.427589 [debug] [MainThread]: Flushing usage events
+[0m15:11:13.199193 [debug] [MainThread]: An error was encountered while trying to flush usage events
